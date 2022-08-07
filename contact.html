@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebD Skill's</title>
+    <link rel="stylesheet" href="FirstProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="FirstProject.html"><img src="WEBSITE PICS USE/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="FirstProject.html">HOME </a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="edited.html">EDITED</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-venus-mars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>Contact Me</h1>
+        </section>
+
+<!-- ------------------Contact Me----- -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7775.368571300532!2d79.189474445597!3d12.99203374620616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad47d513037031%3A0xe00b1e3b7d1584f4!2sVellore%2C%20Tamil%20Nadu%20632106!5e0!3m2!1sen!2sin!4v1659815990306!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<section class="contact-me">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Vellore Institute Of Technology, D Annex,Romm No:-447</h5>
+                    <p>Vellore,Tamil Naidu,632002</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+917494811606</h5>
+                    <p>Monday to Saturday,10A.M to 5P.M</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>Deepankgupta1453@gmail.com</h5>
+                    <p>Email me for any query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Purpose" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- ------Footer---- -->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>
+        So, I Deepank Currently Studying At the Vellore Institute Of Technology, Persuing My B.Tech in Computer Science & Engineering,<br> and Starting the Phase Of Web Development, This Is My First Website For trial. 
+    </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/deepank.gupta.92"><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/Deepank__18"><i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/deepank__/"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/in/deepank-gupta-661142223/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i>Deepank</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------JAvaScript----------- -->
+<script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body> 
+</html>

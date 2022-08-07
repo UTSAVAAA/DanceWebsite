@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebD Skill's</title>
+    <link rel="stylesheet" href="FirstProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="FirstProject.html"><img src="WEBSITE PICS USE/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="FirstProject.html">HOME </a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="edited.html">EDITED</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-venus-mars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>About Me</h1>
+        </section>
+
+<!-- ------------------About me content----- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>This is my first Website for trial </h1>
+            <p>Help me by provide your valuable feedback to by what to improve in this Website.<br>I sometime do photography and editing also.  </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="WEBSITE PICS USE/IMG_20220706_193632.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ------Footer---- -->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>
+        So, I Deepank Currently Studying At the Vellore Institute Of Technology, Persuing My B.Tech in Computer Science & Engineering,<br> and Starting the Phase Of Web Development, This Is My First Website For trial. 
+    </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/deepank.gupta.92"><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/Deepank__18"><i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/deepank__/"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/in/deepank-gupta-661142223/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i>Deepank</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------JAvaScript----------- -->
+<script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body> 
+</html>

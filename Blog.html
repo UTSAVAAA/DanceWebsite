@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebD Skill's</title>
+    <link rel="stylesheet" href="FirstProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,100;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="FirstProject.html"><img src="WEBSITE PICS USE/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="FirstProject.html">HOME </a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="edited.html">EDITED</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-venus-mars" onclick="showMenu()"></i>
+
+            </nav>
+            <h1>My Pictures</h1>
+        </section>
+
+<!-- ------------------Picture--------- -->
+<section class="Blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="WEBSITE PICS USE/IMG_20220706_104451 (1).jpg">
+            <h2>My Picture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, laborum molestiae! Adipisci sint, quod officia laborum, deserunt neque consequatur non quas fuga aspernatur corrupti veniam molestiae sunt excepturi ea corporis.</p><br>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus magni dicta quisquam, suscipit voluptatem, perferendis voluptatum non provident maxime eveniet animi voluptate tempore autem id asperiores quasi placeat sint deleniti!</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo quibusdam tempore, molestiae veniam iste accusantium ut, odio excepturi non fuga nam magnam consectetur cumque autem eligendi vero distinctio mollitia architecto tempora nemo. Eveniet, alias maxime repellendus quibusdam recusandae excepturi reprehenderit, a unde reiciendis corporis blanditiis, debitis dolor? Temporibus quidem quod ratione repudiandae explicabo inventore.</p>
+
+
+
+
+    <div class="comment-box">
+        <h3>Leave A Comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+    </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>About ME</h3>
+            <div>
+                <Span>Name:</Span>
+                <Span>Deepank</Span>
+            </div>
+            <div>
+                <Span>Age:</Span>
+                <Span>18</Span>
+            </div>
+            <div>
+                <Span>From:</Span>
+                <Span>Haryana</Span>
+            </div>
+            <div>
+                <Span>Hobbie:</Span>
+                <Span>Sleeping</Span>
+            </div>
+            <div>
+                <Span>Interested:</Span>
+                <Span>Playing Cricket</Span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ------Footer---- -->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>
+        So, I Deepank Currently Studying At the Vellore Institute Of Technology, Persuing My B.Tech in Computer Science & Engineering,<br> and Starting the Phase Of Web Development, This Is My First Website For trial. 
+    </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/deepank.gupta.92"><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/Deepank__18"><i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/deepank__/"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/in/deepank-gupta-661142223/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i>Deepank</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------JAvaScript----------- -->
+<script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body> 
+</html>
